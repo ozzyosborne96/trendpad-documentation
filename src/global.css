@@ -1,0 +1,169 @@
+/* Global Utility Classes */
+
+/* Flexbox Utilities */
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-end {
+  justify-content: end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+.text-center {
+  text-align: center;
+}
+.gap-1 {
+  gap: 1px;
+}
+/* Gap Utilities */
+.gap-4 {
+  gap: 4px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+/* Full Height & Width */
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.min-height-screen {
+  min-height: 100vh;
+}
+
+/* Centering */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Padding & Margin Utilities */
+.p-4 {
+  padding: 4px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.m-4 {
+  margin: 4px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+
+.m-16 {
+  margin: 16px;
+}
+
+.m-24 {
+  margin: 24px;
+}
+.mt-4 {
+  margin-top: 4px;
+}
+.mt-16 {
+  margin-top: 16px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.commom-gradiant {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 153, 183, 1) 0%,
+    rgba(26, 28, 102, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700 !important;
+}
+.owner-zone-text {
+  color: #c0bebe;
+  font-weight: 700;
+  border-bottom: 2px solid #3a3a3a;
+  padding-bottom: 12px; /* Adds spacing between text and border */
+}

@@ -1,0 +1,28 @@
+.outerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrowBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.containerbox {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.title {
+  color: var(--white, #f1f1f1);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -1,0 +1,13 @@
+/* Navbar styles */
+.navbar {
+  background: radial-gradient(50% 50% at 50% 50%, #0d0d0e 0%, #0c0c0f 100%);
+}
+
+/* .dropDownbox {
+  border-radius: 6px;
+  background: rgba(147, 183, 255, 0.11);
+  box-shadow: 0px 16.089px 21.453px 0px rgba(0, 0, 0, 0.01),
+    0px 10.726px 16.089px 0px rgba(0, 0, 0, 0.01),
+    0px 5.363px 10.726px 0px rgba(0, 0, 0, 0.01),
+    0px 0px 1.341px 0px rgba(0, 0, 0, 0.01);
+} */

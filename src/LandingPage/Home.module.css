@@ -1,0 +1,45 @@
+.connect_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 17px;
+  border: 2px solid var(--text-gradient, #2299b7);
+}
+.smBox {
+  padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 16px;
+  border: 2px solid #2b2b33;
+  background: #121214;
+  min-width: 270px;
+}
+.trnddropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  gap: 8px;
+  border-radius: 17px !important;
+  background: var(
+    --bg,
+    linear-gradient(226deg, #2299b7 -39.46%, #0a0b2a 94.74%)
+  );
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #fff !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+.laptopImg {
+  width: 100%;
+  max-width: 500px;
+  flex-shrink: 0;
+}
+.css-axw7ok {
+  justify-content: center !important;
+}

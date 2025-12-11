@@ -1,0 +1,12 @@
+.mainBox {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  gap: "60px";
+}
+.box {
+  width: "100%";
+  max-width: "100px";
+  height: "404.38px";
+}

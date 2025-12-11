@@ -1,0 +1,41 @@
+.mainBox {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; */
+}
+
+.ouetrBox {
+  text-align: center;
+}
+.createNowbtn {
+  display: flex;
+  height: 69.721px;
+  padding: 20.464px 40.505px 21.257px 41.021px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 21.453px;
+  background: var(
+    --bg,
+    linear-gradient(226deg, #2299b7 -39.46%, #0a0b2a 94.74%)
+  );
+  border: none;
+}
+.learnMorebtn {
+  display: flex;
+  height: 69.721px;
+  padding: 20.464px 40.505px 21.257px 41.021px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 21.453px;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.btnbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
